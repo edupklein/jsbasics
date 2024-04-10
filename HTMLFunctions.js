@@ -36,6 +36,9 @@ console.log(date); // Isso aqui, seria equivalente (por baixo dos panos) a: cons
 /**
  * Aqui, pegamos o objeto de Date já instanciado e chamamos um método pronto que retorna a data formatada para outro padrão
  * (no caso, o padrão 'pt-BR')
+ * 
+ * Para acessar mais informações das classes do JS, é possível usar dir(<classe>) no console do navegador.
+ * Para descobrir mais sobre a classe Date, usar dir(new Date()) no console
  */
 console.log(date.toLocaleString("pt-BR"));
 /**
