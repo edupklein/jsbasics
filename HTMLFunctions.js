@@ -32,9 +32,19 @@ console.log(date);
  * Aqui, estamos instanciando um novo objeto Date, no qual retorna a data/hora já formatada humano-legível
  */
 date = new Date();
-console.log(date);
+console.log(date); // Isso aqui, seria equivalente (por baixo dos panos) a: console.log(date.toString())
 /**
  * Aqui, pegamos o objeto de Date já instanciado e chamamos um método pronto que retorna a data formatada para outro padrão
  * (no caso, o padrão 'pt-BR')
  */
 console.log(date.toLocaleString("pt-BR"));
+/**
+ * No JavaScript, cada tag do HTML vira um objeto no JS.
+ * 
+ * Exemplo: Se no Console do navegador eu digitar 'document', abaixo irá exibir todo o HTML do DOM (Document Objetct Model)
+ *          Se no Console do navegador eu digitar dir(document), abaixo irá exibir o mesmo HTML, mas convertido pra um objeto JS.
+ * 
+ *  O método dir() do navegador converte um HTML pra um objeto javascript
+ * 
+ *  O método dir(document) ou dir(window) é útil para ver todas as funções e atributos que estão disponíveis no objeto 'window' para manipular no JS
+ */
