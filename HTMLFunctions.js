@@ -51,3 +51,9 @@ console.log(date.toLocaleString("pt-BR"));
  * 
  *  O método dir(document) ou dir(window) é útil para ver todas as funções e atributos que estão disponíveis no objeto 'window' para manipular no JS
  */
+/**
+ * Another thing,  
+ * 
+ * When making an JS that runs on the <script> tag, the elements 'window' and 'document' already come as
+ * JavaScript objects.
+ */
